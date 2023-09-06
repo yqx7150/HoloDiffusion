@@ -1,0 +1,81 @@
+cd  /code/HOLOGRAM/ncsnpp_holo/ncsnpp_holo_train/OAP_view512_sparse_mask
+conda activate ncsn
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=1 --gap=60
+
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=60
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=60 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=1 --gap=60
+
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=30
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=30 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=120
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=120 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=180
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=180 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=240
+python  A_1k_arg_PCsampling_demo.py  --size=200  --gpu=1 --gap=240 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=250  --gpu=1 --gap=30
+python  A_1k_arg_PCsampling_demo.py  --size=250  --gpu=1 --gap=30 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=250  --gpu=1 --gap=60
+python  A_1k_arg_PCsampling_demo.py  --size=250  --gpu=1 --gap=60 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=300  --gpu=1 --gap=60
+python  A_1k_arg_PCsampling_demo.py  --size=300  --gpu=1 --gap=60 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=1 --gap=0
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=1 --gap=0 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=0 --gap=30
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=0 --gap=30 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=0 --gap=60
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=0 --gap=60 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=0 --gap=90
+python  A_1k_arg_PCsampling_demo.py  --size=350  --gpu=0 --gap=90 --useNet=True
+
+
+
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=0
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=0 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=30
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=30 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=60
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=60 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=90
+python  A_1k_arg_PCsampling_demo.py  --size=400  --gpu=0 --gap=90 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=0
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=0 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=1 --gap=15
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=15 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=30
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=30 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=45
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=1 --gap=45 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=60
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=60 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=1 --gap=75
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=75 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=90
+python  A_1k_arg_PCsampling_demo.py  --size=450  --gpu=0 --gap=90 --useNet=True
+
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=1 --gap=0
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=0 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=1 --gap=15
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=15 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=1 --gap=30
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=30 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=1 --gap=45
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=45 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=60
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=1 --gap=60 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=1 --gap=75
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=75 --useNet=True
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=90
+python  A_1k_arg_PCsampling_demo.py  --size=500  --gpu=0 --gap=90 --useNet=True
+
+1/10 0/20 1/2 1/5
+1/4 1/3 1/6 1/7  1/8  1/9
