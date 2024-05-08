@@ -1,12 +1,7 @@
 train:
-python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp_allNumber --mode=train --eval_folder=result
+python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp_zl --mode=train --eval_folder=result
 
 test:
-python A_PCsampling_demo.py
-
---workdir=exp_zl
---mode=train
---eval_folder=result
---config=aapm_sin_ncsnpp_gb.py
+python A_PCsampling_demo.py --workdir=exp_zl --mode=train --eval_folder=result --config=aapm_sin_ncsnpp_gb.py
 
 CUDA_VISIBLE_DEVICES=1 python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp_zl --mode=train --eval_folder=result
